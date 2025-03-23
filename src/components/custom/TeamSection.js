@@ -22,7 +22,7 @@ function TeamSection() {
                 src={member.image}
                 alt={member.name}
                 fill
-                className="object-cover bg-red-400"
+                className="object-cover bg-gray-500"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#4AC7EC]/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">

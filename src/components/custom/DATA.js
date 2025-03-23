@@ -1,9 +1,9 @@
 export const navItems = [
-  { name: "Services", url: "/services" },
-  { name: "Contact", url: "/contact" },
-  { name: "About us", url: "/about" },
-  { name: "FAQ", url: "/faq" },
-  { name: "Pricing", url: "/pricing" },
+  { name: "Home", url: "/#home" },
+  { name: "About us", url: "/#about" },
+  { name: "Services", url: "/#services" },
+  { name: "FAQ", url: "/#faq" },
+  { name: "Contact Us", url: "/#contact" },
 ];
 
 export const team = [

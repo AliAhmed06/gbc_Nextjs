@@ -64,6 +64,7 @@ export default function Page() {
       </motion.section>
 
       {/* Services Section */}
+      <div id="services"></div>
       <motion.section
         className="w-full px-4  "
         initial="hide"
@@ -113,6 +114,7 @@ export default function Page() {
       </motion.section>
 
       {/* FAQ Section */}
+      <div id="faq"></div>
       <motion.section
         initial="hide"
         whileInView="show"
@@ -122,6 +124,7 @@ export default function Page() {
       </motion.section>
 
       {/* Contact Section */}
+      <div id="contact"></div>
       <motion.section
         initial="hide"
         whileInView="show"

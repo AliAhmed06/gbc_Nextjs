@@ -20,27 +20,19 @@ import Autoplay from "embla-carousel-autoplay";
 const testimonials = [
   {
     id: 1,
-    name: "Jhon Wick",
-    role: "CEO - Wick Enterprise",
+    name: "Chief Operating Officer",
+    role: "Supplyme Corp",
     image: "/images/team1.png",
     quote:
-      "Very inspiring working experience with their representatives, responsible and active in communication. Incredible group of people and talented professionals. Focused on the development of flexible and I am truly recommend them.",
+      "I have had the pleasure of working with Irtiza and his team on a recent project, and I couldn’t be more impressed with their expertise and dedication. From the initial concept to the final product, the team demonstrated a high level of professionalism and technical proficiency.",
   },
   {
     id: 2,
-    name: "Sarah Chen",
-    role: "CTO - Tech Solutions",
+    name: "CEO",
+    role: "S.A. Hamid & Co. ",
     image: "/images/team2.png",
     quote:
-      "The team's technical expertise and dedication to quality delivered exceptional results. Their innovative approach and attention to detail made them stand out.",
-  },
-  {
-    id: 3,
-    name: "Michael Rodriguez",
-    role: "Director - Innovation Labs",
-    image: "/images/team3.png",
-    quote:
-      "Outstanding collaboration and problem-solving abilities. They consistently exceeded our expectations and delivered solutions that transformed our business processes.",
+      "Irtiza is a seasoned software engineer, and I have had the privilege of knowing him for a long time. He’s not just an old friend but also a true expert in his field. What sets him apart is not just his technical prowess but also his exceptional humility and unwavering commitment to his work.",
   },
 ];
 
@@ -85,8 +77,9 @@ export default function TestimonialCarousel() {
               {testimonials.map((testimonial) => (
                 <CarouselItem key={testimonial.id}>
                   <Card className="border-0 shadow-none">
-                    <CardContent className="relative grid gap-6 p-6 sm:grid-cols-[180px_1fr] md:gap-8 md:p-8">
-                      <div className="relative aspect-square h-auto max-h-[220px] w-[220px] overflow-hidden rounded-lg">
+                    {/* <CardContent className="relative grid gap-6 p-6 sm:grid-cols-[180px_1fr] md:gap-8 md:p-8"> */}
+                    <CardContent className="relative grid gap-6 p-6  md:gap-8 md:p-8">
+                      {/* <div className="relative aspect-square h-auto max-h-[220px] w-[220px] overflow-hidden rounded-lg">
                         <Image
                           src={testimonial.image}
                           alt={`${testimonial.name}'s testimonial`}
@@ -94,17 +87,17 @@ export default function TestimonialCarousel() {
                           fill
                           sizes="180px"
                         />
-                      </div>
-                      <div className="flex flex-col justify-center space-y-4">
-                        <Link
+                      </div> */}
+                      <div className="flex flex-col justify-center space-y-4 w-[80%] mx-auto">
+                        {/* <Link
                           href="#"
                           className="inline-flex w-fit items-center gap-2 text-sm  hover:text-primary text-[#74AFB8]"
                         >
                           View project
                           <ExternalLink className="h-4 w-4" />
-                        </Link>
+                        </Link> */}
                         <blockquote className="text-lg text-muted-foreground">
-                          `${testimonial.quote}`
+                          {`${testimonial.quote}`}
                         </blockquote>
                         <div className="space-y-1">
                           <div className="font-semibold text-[#74AFB8]">

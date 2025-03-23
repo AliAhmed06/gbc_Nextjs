@@ -5,7 +5,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col lg:flex-row items-center gap-12">
+    <div className="flex flex-col lg:flex-row items-center gap-12" id="home">
       <div>
         <h1 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
           Where <span className="text-[#4FB8B5]">Technology</span>

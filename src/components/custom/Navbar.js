@@ -21,9 +21,12 @@ function Navbar() {
           </Link>
         ))}
       </div>
-      <button className="hidden md:block bg-[#4FB8B5] text-white px-6 py-2 rounded-full text-sm">
+      <Link
+        href={"/#contact"}
+        className="hidden md:block bg-[#4FB8B5] text-white px-6 py-2 rounded-full text-sm"
+      >
         Contact
-      </button>
+      </Link>
       <div className="md:hidden">
         <MobileNavbar />
       </div>

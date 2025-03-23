@@ -61,7 +61,7 @@ export default function ContactForm() {
               type="submit"
               className="h-12 px-8 text-white  font-bold bg-[#5BB5A9] rounded-[10px] hover:bg-[#4CA599] transition-colors text-lg"
             >
-              Subscribe
+              Contact
             </button>
           </form>
         </div>
