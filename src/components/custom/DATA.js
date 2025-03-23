@@ -8,24 +8,28 @@ export const navItems = [
 
 export const team = [
   {
-    name: "Cameron Williamson",
-    role: "FULL STACK DEVELOPER",
-    image: "/images/team1.png",
+    name: "Irtiza hassan",
+    role: "CEO",
+    image: "/images/irtiza.jfif",
+    url: "https://www.linkedin.com/in/irtiza-hassan-b69488214/",
   },
   {
-    name: "Jenny Wilson",
-    role: "FRONT-END DEVELOPER",
-    image: "/images/team2.png",
+    name: "Ali Rehan",
+    role: "CTO/CIO",
+    image: "/images/ali-rehan.jfif",
+    url: "https://www.linkedin.com/in/ali-rehan-tirmizi/",
   },
   {
-    name: "Savannah Nguyen",
-    role: "PRODUCT MANAGER",
-    image: "/images/team3.png",
+    name: "Mohsin Ijaz",
+    role: "Head AI/ML Development",
+    image: "/images/mohsin-ijaz.jfif",
+    url: "https://www.linkedin.com/in/muhammad-mohsin-ijaz-66015997/",
   },
   {
-    name: "Dianne Russell",
-    role: "UI/UX DESIGNER",
-    image: "/images/team4.png",
+    name: "Ali Ahmed",
+    role: "Head Full Stack Development",
+    image: "/images/ali-ahmed.jfif",
+    url: "https://www.linkedin.com/in/aliahmedd/",
   },
 ];
 
